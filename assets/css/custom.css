@@ -700,7 +700,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{ font-weight: 600; }
     left: 0;
 }
 .card-flex .card-header{ display: flex; justify-content: space-between; }
-.ca-visitly .card .card-header { display: flex; flex-direction: row; justify-content: space-between; flex-wrap: wrap; }
 
 /* Table CSS */
 .table thead th{
@@ -729,8 +728,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{ font-weight: 600; }
   max-width: 120px;
   width: 120px;
 }
-.table .actions .btn-icon,
-.kp-datatable .actions .btn-icon{ margin: 0 5px; }
+.table .actions .btn-icon{ margin: 0 5px; }
 
 
 /* Modal CSS */
@@ -794,82 +792,6 @@ body .form-group .control-label{ color: #888888; }
   border: 0px !important;
 }
 
-/* Dashboard CSS */
-.row-dailybox .card{ border-radius: 0px;  }
-
-/* NGX Datatable */
-body .kp-datatable .profile-img { height: 35px; width: 35px; border-radius: 50%; }
-body .kp-datatable.ngx-datatable { box-shadow: none; }
-body .kp-datatable.ngx-datatable .datatable-header,
-body .kp-datatable.ngx-datatable .datatable-header .datatable-header-inner,
-body .kp-datatable.ngx-datatable .datatable-header .datatable-row-center,
-body .kp-datatable.ngx-datatable .datatable-body,
-body .kp-datatable.ngx-datatable .datatable-body .datatable-scroll,
-body .kp-datatable.ngx-datatable .datatable-body .datatable-body-row,
-body .kp-datatable.ngx-datatable .datatable-body .datatable-row-center { width: 100% !important; }
-body .kp-datatable.ngx-datatable .datatable-header .datatable-header-cell {  font-size: 14px;
-    padding: 10px 8px;
-  font-weight: 600;
-  text-transform: capitalize;
-  color: #111111; }
-  body .kp-datatable.ngx-datatable .datatable-body .datatable-body-row .datatable-body-cell{
-    font-size: 14px;
-    color: #111111;
-    padding: 8px 8px;
-    vertical-align: middle;
-    font-weight: 300;
-  }
-  body .kp-datatable.ngx-datatable .datatable-body .datatable-body-row{ border-bottom: 1px solid #dee2e6; }
-  body .kp-datatable.ngx-datatable .datatable-body .datatable-row-wrapper:nth-last-child(1) .datatable-body-row{ border-bottom: 0px; }
-  body .kp-datatable.ngx-datatable .datatable-footer{ font-size: 16px; color: rgba(77, 79, 92,0.5); }
-  body .kp-datatable.ngx-datatable .datatable-footer .datatable-pager .pager li.pages a{
-    border: 1px solid #EAEAEA;
-    margin: 0 4px;
-    height: auto;
-    width: auto;
-    min-width: auto;
-    padding: 2px 8px;
-    color: rgba(77, 79, 92,0.5);
-   }
-   body .kp-datatable.ngx-datatable .datatable-footer .datatable-pager li.pages.active a{
-      background-color: #3F4D67;
-      color: #fff;
-   }
-   body .kp-datatable.ngx-datatable .datatable-footer .datatable-pager li.pages a:hover{ background-color: #3F4D67;
-    color: #fff; }
-   body .kp-datatable.ngx-datatable .datatable-footer .datatable-pager .datatable-icon-left,
-   body .kp-datatable.ngx-datatable .datatable-footer .datatable-pager .datatable-icon-skip,
-   body .kp-datatable.ngx-datatable .datatable-footer .datatable-pager .datatable-icon-right,
-   body .kp-datatable.ngx-datatable .datatable-footer .datatable-pager .datatable-icon-prev{
-    font-size: 22px;
-    line-height: 31px;
-    padding-top: 0;
-    display: block;
-    padding: 2px 0 0 0;
-    margin-bottom: -6px;
-   }
-   body .kp-datatable.ngx-datatable .datatable-footer .datatable-pager li a:hover{ background-color: transparent; }
-   body .kp-datatable [type="checkbox"]:not(:checked),
-   body .kp-datatable [type="checkbox"]:checked {
-    left: inherit;
-    opacity: inherit;
-}
-body .kp-datatable .datatable-checkbox input[type='checkbox']:before{
-  width: 15px;
-  height: 15px;
-  border: 1px solid #5a5a5a;
-}
-body .kp-datatable .datatable-checkbox input[type='checkbox']:checked:before{
-  border-color: #04a9f5;
-    border-top-style: none;
-    border-right-style: none;
-    height: 8px;
-}
-body .kp-datatable .datatable-checkbox input[type='checkbox']:after{
-  width: 15px;
-  height: 15px;
-}
-
 /* ng-select CSS */
 .ng-select.ng-select-single .ng-select-container {
   height: 38px !important;
@@ -905,6 +827,50 @@ body .md-drppicker .btn{ background-color: #04A9F5; margin: 0 5px; }
 }
 .pd-list li{ margin: 0 3px; }
 
+/* User Side Theme Color */
+.user-side .topbar{ background-color: #43a047; }
+.user-side .topbar .top-navbar .navbar-header{ background-color: #43a047; }
+.user-side .navbar-light .navbar-nav .nav-link{ color: #fff !important; }
+.user-side .left-sidebar{ background: #fff; }
+.user-side .sidebar-nav { background: transparent; }
+.user-side .sidebar-nav ul li a{ color: #333; }
+.user-side .sidebar-nav ul li a.active, 
+.user-side .sidebar-nav ul li a:hover{ color: #43a047; }
+.user-side .sidebar-nav > ul > li > a.active{ background: rgba(67, 160, 71, 0.7);
+  border-left: 3px solid #43a047; color: #fff; }
+.user-side .sidebar-nav > ul > li > a.active i{ color: #fff; }
+.user-side .sidebar-nav > ul > li.active > a, 
+.user-side .sidebar-nav > ul > li.active:hover > a{
+  background: rgba(67, 160, 71, 0.7) !important;
+  border-left: 3px solid #43a047;
+  color: #fff;
+}
+.user-side .sidebar-nav > ul > li.active > a i{
+  color: #fff;
+}
+.user-side .sidebar-nav ul li ul{
+  background: rgba(67, 160, 71, 0.5);
+}
+.user-side .sidebar-nav > ul > li.active > ul > li > a{
+  border-left: 3px solid #43a047;
+  color: #fff;
+}
+.user-side .sidebar-nav > ul > li.active > ul > li > a:hover,
+.user-side .sidebar-nav > ul > li.active > ul > li > a.active{
+  color: #333;
+}
+@media (min-width: 768px){
+  .mini-sidebar .user-side .sidebar-nav #sidebarnav > li > ul {
+    background: #43a047;
+  }
+  .mini-sidebar .user-side .sidebar-nav #sidebarnav > li:hover > a {
+      width: 260px;
+      background: #43a047;
+      color: #fff;
+      border-color: #43a047;
+  }
+  .mini-sidebar .user-side .sidebar-nav ul li ul li a{ color: #fff; }
+}
 
 /* Responsive CSS */
 @media screen and (max-width:1920px) {
@@ -961,18 +927,9 @@ body .md-drppicker .btn{ background-color: #04A9F5; margin: 0 5px; }
     flex: 0 0 45%;
     max-width: 45%;
   }
-
-  .visitly-pricing .plan-grid{ flex: 0 0 33%; max-width: 33%; }
-  .visitly-pricing .atm-grid{ flex: 0 0 45%; max-width: 45%; }
   .col-integrations { flex: 0 0 50%; max-width: 50%; }
   .badge-grid { flex: 0 0 100%; max-width: 100%; }
-  .visitorlog .card-visitorlog .card-header .form-group{ margin-bottom: 10px !important; }
-  .employeelog .card-employeelog .card-header .form-group{ margin-bottom: 10px !important; }
-  .employeelog .card-employeelog .card-header .form-group{ margin-bottom: 10px !important; }
   .bulkpreregmodal .bulk-filter .form-group{ flex: 0 0 33%; max-width: 33%; }
-  .view-emplog-modal .profilebar .profile-img,
-  .view-emplog-modal .profilebar .profile-details,
-  .view-emplog-modal .profilebar .profile-action{ flex: 0 0 50% !important; max-width: 50% !important; }
 }
 @media screen and (max-width:1024px) and (orientation : landscape){
 
@@ -988,9 +945,7 @@ body .md-drppicker .btn{ background-color: #04A9F5; margin: 0 5px; }
 }
 }
 @media screen and (max-width: 768px){
-  .view-emplog-modal .profilebar .profile-contact {
-    flex: 0 0 100% !important; max-width: 100% !important; margin-top: 15px; }
-    .view-emplog-modal .profilebar .profile-action{ flex: 0 0 100% !important; max-width: 100% !important; }
+ 
 }
 @media screen and (max-width: 767px){
   .auth-wrapper { padding: 0; }
@@ -1006,54 +961,12 @@ body .md-drppicker .btn{ background-color: #04A9F5; margin: 0 5px; }
     box-shadow: 1px 0 20px rgba(0, 0, 0, .08) !important;
     border-radius: 4px;
   }
-  .kp-datatable.ngx-datatable .datatable-header .datatable-header-cell,
-  .kp-datatable.ngx-datatable .datatable-body .datatable-body-row .datatable-body-cell{
-    min-width: 200px; }
-    .row-dailybox .card {
-      min-height: auto;
-  }
+ 
   .topbar .navbar-brand .half-logo{ display: inline-block; }
   .topbar .navbar-brand .full-logo{ display: none; }
   body .page-wrapper { margin-left: 0px; }
-  body .kp-datatable.ngx-datatable .datatable-header,
-  body .kp-datatable.ngx-datatable .datatable-header .datatable-header-inner,
-  body .kp-datatable.ngx-datatable .datatable-header .datatable-row-center,
-  body .kp-datatable.ngx-datatable .datatable-body,
-  body .kp-datatable.ngx-datatable .datatable-body .datatable-scroll,
-  body .kp-datatable.ngx-datatable .datatable-body .datatable-body-row,
-  body .kp-datatable.ngx-datatable .datatable-body .datatable-row-center {
-    width: auto !important; }
-  .ca-visitly .card .card-header h4 { margin-bottom: 15px !important; }
   .page-header .page-title { flex: 0 0 100%; max-width: 100%; margin-bottom: 15px; }
   .page-header .page-button { flex: 0 0 100%; max-width: 100%; }
-  .ca-visitly .card-delivery .card-header .form-group{ flex: 0 0 100%; max-width: 100%; margin-bottom: 10px !important; flex-wrap: wrap; }
-  .ca-visitly .card-delivery .card-header .fg-one .form-control{
-    margin-left: 10px; }
-  .ca-visitly .card-delivery .card-header .fg-two .form-control{ margin-left: 65px;
-    margin-top: 10px; }
-    .ca-visitly .card-prereg .card-header .form-group{ flex: 0 0 100%; max-width: 100%; margin-bottom: 10px !important; flex-wrap: wrap; }
-    .ca-visitly .card-prereg .card-header .fg-one .form-control{
-      margin-left: 10px; }
-    .ca-visitly .card-prereg .card-header .fg-two .form-control{ margin-left: 65px;
-      margin-top: 10px; }
-      .visitorlog .card-visitorlog .card-header .form-group {
-        flex: 0 0 100%;
-        max-width: 100%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .visitorlog .card-visitorlog .card-header .vl-button-group{ flex-wrap: wrap; }
-    .visitorlog .card-visitorlog .card-header .vl-button-group .btn{ margin-bottom: 10px; }
-      .employeelog .card-employeelog .card-header .form-group {
-        flex: 0 0 100%;
-        max-width: 100%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-    .employeelog .card-employeelog .card-header .vl-button-group{ flex-wrap: wrap; }
-    .employeelog .card-employeelog .card-header .vl-button-group .btn{ margin-bottom: 10px; }
     .admin-dasboard .page-button .ng-select{ margin-bottom: 16px; }
     .bulkpreregmodal .bulk-filter .form-group {
       margin-bottom: 10px;

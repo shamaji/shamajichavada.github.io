@@ -91,6 +91,8 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ngx-cookie-service
 MIT
 
+ngx-device-detector
+
 ngx-toastr
 MIT
 The MIT License (MIT)
